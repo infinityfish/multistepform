@@ -24,3 +24,50 @@ a {
     background: black;
   }
 }
+
+/* buttons */
+.btn-primary {
+  background: #2222ff;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  /* letter-spacing: 2px; */
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: white;
+  color: #2222ff;
+  border: none;
+  border-radius: 1rem;
+  border: 1px solid #2222ff;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 14px;
+  margin-right: 20px;
+  font-weight: 700;
+  /* letter-spacing: 2px; */
+  cursor: pointer;
+}
+
+
+.btn-inactive {
+  background: #b4b4d5;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  /* letter-spacing: 2px; */
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
